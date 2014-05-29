@@ -33,7 +33,7 @@ gem 'gravatarify', '~> 3.0.0'
 gem 'jquery-fileupload-rails'
 gem 'bootstrap-sass', '~> 3.1.1'
 gem 'devise'
-gem "paperclip", "~> 4.1"
+gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 gem 'aws-sdk', '~> 1.41.0'
 gem 'rails_12factor', group: :production
 

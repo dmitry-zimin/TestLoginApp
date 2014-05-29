@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2170014553">
+    <data-source source="LOCAL" name="Rails loginapp: development" uuid="78e1bb4f-a096-430c-a314-ffb5a1fd4db3">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/login_app_dev</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails loginapp: test" uuid="9aec2cb9-790c-44c2-92b1-3165810711bc">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/login_app_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails loginapp: production" uuid="dd665003-7f66-4ea9-9743-2c9e797de450">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/login_app_prod</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails loginapp: default" uuid="53136ce7-6405-4dc3-9d25-3eaa2eac88e9">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/login_app_dev</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

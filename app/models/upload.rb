@@ -2,7 +2,11 @@ class Upload < ActiveRecord::Base
 
   include Rails.application.routes.url_helpers
 
-  has_attached_file :picture, :styles => { :medium => "300x300>", :thumb => "100x100>" }
+  has_attached_file :picture,
+    styles: { :medium => "300x300>", :thumb => "100x100>" },
+    storage: :s3,
+    s3_credentials: { bucket: 'login_app' }
+
   validates_attachment_content_type :picture, :content_type => /\Aimage\/.*\Z/
   belongs_to :user
 

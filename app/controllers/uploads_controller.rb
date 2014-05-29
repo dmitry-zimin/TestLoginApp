@@ -3,7 +3,7 @@ class UploadsController < ApplicationController
 
   def index
     @uploads = current_user.uploads
-
+    @user = current_user
     respond_to do |format|
       format.html
       format.json { render json: @uploads.map{|upload| upload.to_jq_upload } }
@@ -77,7 +77,7 @@ class UploadsController < ApplicationController
 
   private
   def upload_params
-    params.require(:upload).permit(:image)
+    params.require(:upload).permit(:picture)
   end
 
 end

@@ -7,6 +7,8 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="container-fluid">
+  <div class="row">
     <% if notice %>
       <div class='container'>
         <div class='row'>
@@ -27,5 +29,7 @@
       </div>
     <% end %>
 <%= yield %>
+  </div>
+</div>
 </body>
 </html>
